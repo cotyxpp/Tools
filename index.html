@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>工具合集</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="hover">密码生成器</li>
+            <li>密码生成器</li>
+            <li>密码生成器</li>
+            <li>密码生成器</li>
+            <li>密码生成器</li>
+            <li>密码生成器</li>
+        </ul>
+    </header>
+    <div id="content">
+        <div id="tools-1">
+            <table>
+                <tr>
+                    <td>所用字符</td>
+                    <td>
+                        <input type="checkbox" name="ck1" checked="1">
+                        <label>A-Z</label>
+                        <input type="checkbox" name="ck2" checked="1">
+                        <label>a-z</label>
+                        <input type="checkbox" name="ck3" checked="1">
+                        <label>0-9</label>
+                        <input type="checkbox" name="ck4" checked="0">
+                        <label>!@#$%^_&*</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>密码长度</td>
+                    <td>
+                        <input type="number" value="32" max="48" min="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>生成结果</td>
+                    <td>
+                        <input type="text" id="tools-1-pass" list="list_pass" maxlength="48">
+                        <datalist id="list_pass">
+                            
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+            <input type="button" value="生成密码"> <span class="message">已复制到粘贴板上</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/millet.js"></script>
+    <script type="text/javascript" src="js/tools.js"></script>
+</body>
+
+</html>
