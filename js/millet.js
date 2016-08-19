@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
     $('#tools-1 .message').hide();
     $('#tools-1 input[type="button"]').click(function() {
         var arr = [];
