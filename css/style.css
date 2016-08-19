@@ -249,7 +249,10 @@ header ul li.hover {
     color: #35b558;
     font-size: 16px;
     background: #f3fff6;
-    border: 1px solid #35b558
+    border: 1px solid #35b558;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 #tools-1 input[type="button"]:hover{
 	background: #35b558;
